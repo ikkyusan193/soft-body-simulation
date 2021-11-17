@@ -18,3 +18,5 @@ Such a model is easy to calculate and represent in time, however, it provides an
 Trying to finish all the neccesary class first
 After able to draw we will continue on simulation logic
 and adding constraints at last step
+
+-- add boundary checking for particles as well! (MUST DO)
