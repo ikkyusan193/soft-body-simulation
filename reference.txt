@@ -1,0 +1,25 @@
+# This text file contains all the references i used during the project
+
+1. Idea on how to draw the particle for pygame: https://www.youtube.com/watch?v=HHQV3ifJopo
+2. Vector.py idea: https://introcs.cs.princeton.edu/python/33design/vector.py.html
+3. Vector.py guide: https://github.com/p5py/p5/blob/master/p5/pmath/vector.py
+4. drawing particle for pygame: https://pythonprogramming.altervista.org/particles-effects-in-videogames-with-pygame-and-python/
+5. https://joeyfladderak.com/lets-talk-physics-soft-body-dynamics/
+6. https://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S17/final_projects/haoxin_brandon.pdf
+7. https://research.ncl.ac.uk/game/research/publications/Real-Time%20Deformable%20Soft-Body%20Simulation.pdf
+8. drawing particle for pygame: https://www.youtube.com/watch?v=F69-t33e8tk
+9. particle slide: https://slideplayer.com/slide/1395400/
+10. main reference: https://www.mdpi.com/2078-2489/9/12/318/htm
+
+
+
+######################## Algorithm/Idea/Model's reference:
+1.
+
+
+######################## Tutorial/Guide's reference:
+1.
+
+
+########################### Debugging reference:
+1. Fixing NotImplemented for the Object's method: https://stackoverflow.com/questions/9126766/addition-between-classes-using-radd-method#:~:text=__radd__%20is%20only,which%20do%20not%20return%20NotImplemented%20.
