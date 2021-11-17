@@ -1,0 +1,15 @@
+1st import all py to ipynb then try to draw 1 particle first
+then figure out how to connect them
+then figure out how to add spring as constraint
+
+Create an initial body shape from small particles.
+Fill the inside of the body evenly with small particles.
+Connect each body component with its neighbors using flexible springs.
+Perform physics simulation of the internal particles of the body.
+
+Soft bodies are usually modeled as a collection of elastically linked small particles that are characterized by mass, position, and velocity. The constraints linking two particles connected by an elastic joint can be described mathematically by Hooke’s law with an inclusion of the damping force as follows:
+
+F(t,x(t),x˙(t))=−k(|d|−l0)d→+b(x˙(t)−x˙p(t))
+
+where t is time; l0 is the length of the link; k is the elasticity constant; b is the damping constant, d is the variation in the length of the link; x˙p(t) is the velocity of the counterpart particle linked by the joint.
+Such a model is easy to calculate and represent in time, however, it provides an approximation of the true physics only to a certain level of precision.
