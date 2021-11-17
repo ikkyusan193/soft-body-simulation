@@ -13,3 +13,8 @@ F(t,x(t),x˙(t))=−k(|d|−l0)d→+b(x˙(t)−x˙p(t))
 
 where t is time; l0 is the length of the link; k is the elasticity constant; b is the damping constant, d is the variation in the length of the link; x˙p(t) is the velocity of the counterpart particle linked by the joint.
 Such a model is easy to calculate and represent in time, however, it provides an approximation of the true physics only to a certain level of precision.
+
+11/17 4PM:
+Trying to finish all the neccesary class first
+After able to draw we will continue on simulation logic
+and adding constraints at last step

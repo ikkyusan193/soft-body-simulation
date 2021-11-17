@@ -53,6 +53,47 @@ class Vector:
     def __dot__(self, other):
         return (self.x * other.x) + (self.y * other.y)
 
+
+    # Vector addition & Vector subtraction
+    # @param        self: vector1
+    # @param        other: vector2
+    # return        Return new vector object after the arithmetical operations
+    def __add__(self, other):
+        return Vector(self.x + other.x, self.y + other.y)
+
+    def __sub__(self, other):
+        return Vector(self.x - other.x, self.y - other.y)   
+
+    def __mul__(self, k):
+        self.x *= k
+        self.y *= k
+        return Vector(self.x,self.y)
+
+    def __rev__(self):
+        self.x = -self.x
+        self.y = -self.y
+        return Vector(self.x, self.y)     
+
+
+    # Multiply a vector with another vector
+    # @param        self: vector1
+    # @param        other: vector2
+    # @return       Return a vector after its multiplcation with another vector
+    def scale(self, other):
+        self.x *= other.x
+        self.y *= other.y
+        return self
+
+
+    # Check if both given vector are equals
+    # @param        self: vector1    
+    # @param        other: vector2     
+    # @return       Return true if vector1 and vector2 is equal
+    #               (They have the same x,y)
+    def __iseq__(self,other):
+        return self.x == other.x and self.y == other.y
+
+
     # @TODO fix this by using numpy
     # Normalize a given vector 
     # @param        self: current vector   
@@ -72,54 +113,6 @@ class Vector:
         l = self.length()
         if l:
             return Vector(self.x / l, self.y / l)
-
-    # Vector addition & Vector subtraction
-    # @param        self: vector1
-    # @param        other: vector2
-    # return        Return new vector object after the arithmetical operations
-    def __add__(self, other):
-        return Vector(self.x + other.x, self.y + other.y)
-    def __sub__(self, other):
-        return Vector(self.x - other.x, self.y - other.y)   
-
-
-    # Multiply the vector with constant k
-    # (Scale x and y by k)
-    # @param        self: current vector
-    # @param        k: constant
-    # @return       Return a vector after its multiplication(scale) with the constant
-    def __multik__(self, k):
-        self.x *= k
-        self.y *= k
-        return self
-
-
-    # Multiply a vector with another vector
-    # @param        self: vector1
-    # @param        other: vector2
-    # @return       Return a vector after its multiplcation with another vector
-    def __multiv__(self, other):
-        self.x *= other.x
-        self.y *= other.y
-        return self
-
-
-    # Reverse the direction of the vector
-    # @param        self: current vector
-    def __rev__(self):
-        self.x = -self.x
-        self.y = -self.y
-        return self
-
-
-    # Check if both given vector are equals
-    # @param        self: vector1    
-    # @param        other: vector2     
-    # @return       Return true if vector1 and vector2 is equal
-    #               (They have the same x,y)
-    def __iseq__(self,other):
-        return self.x == other.x and self.y == other.y
-
 
 
 
