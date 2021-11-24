@@ -16,7 +16,7 @@
 ######################## Algorithm/Idea/Model's reference:
 1. 3D Soft Body Simulation Using Mass-spring System with Internal Pressure Force and Simplified Implicit Integration: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.476&rep=rep1&type=pdf
 2. Volume Preserved Mass-Spring Model with Novel Constraints for Soft Tissue Deformation: https://www.researchgate.net/publication/268281158_Volume_Preserved_Mass-Spring_Model_with_Novel_Constraints_for_Soft_Tissue_Deformation
-
+3. Particle-based simulation of deformable bodies: https://www10.cs.fau.de/publications/theses/2010/Czilli_BT_2010.pdf
 ######################## Tutorial/Guide's reference:
 1. Particle Spring Simulation Tutorial:  https://asd.sutd.edu.sg/dfab/part-spring-simulate/
 
