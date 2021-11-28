@@ -1,10 +1,16 @@
-Added function to verify mouse position when clicked (offset with pygame/pymunk)
-Now able to move particle accurately
+todo ssm project
 
-Todo:
-Investigate other constant
-Make a circle somehow
-Create a box (somekind of boundary so it wont go off the border)
+make code clean
 
-must todo:
-refractor code properly (make it more nize)
+move segment to simluation_segment = []
+
+make draw function that draw particle/joints in square/circle class
+
+
+
+make more segment
+put bg in as well
+create liek many simulation:
+1. 1 square
+2. 1 circle
+3. both square and circle
