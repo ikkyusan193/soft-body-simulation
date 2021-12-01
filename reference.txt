@@ -17,9 +17,13 @@
 1. 3D Soft Body Simulation Using Mass-spring System with Internal Pressure Force and Simplified Implicit Integration: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.476&rep=rep1&type=pdf
 2. Volume Preserved Mass-Spring Model with Novel Constraints for Soft Tissue Deformation: https://www.researchgate.net/publication/268281158_Volume_Preserved_Mass-Spring_Model_with_Novel_Constraints_for_Soft_Tissue_Deformation
 3. Particle-based simulation of deformable bodies: https://www10.cs.fau.de/publications/theses/2010/Czilli_BT_2010.pdf
+
+
 ######################## Tutorial/Guide's reference:
 1. Particle Spring Simulation Tutorial:  https://asd.sutd.edu.sg/dfab/part-spring-simulate/
-
+2. https://www.pygame.org/docs/tut/ImportInit.html
+3. http://www.pymunk.org/en/latest/tutorials/SlideAndPinJoint.html
+4. https://pymunk-tutorial.readthedocs.io/en/latest/joint/joint.html
 
 ########################### Debugging reference:
 1. Fixing NotImplemented for the Object's method: https://stackoverflow.com/questions/9126766/addition-between-classes-using-radd-method#:~:text=__radd__%20is%20only,which%20do%20not%20return%20NotImplemented%20.
